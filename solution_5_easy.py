@@ -1,7 +1,6 @@
 import scrabble
 
-
-# Print every other word that starts with 'a' and ends with 9
+# Print every other word that starts with 'a' and is more than 9 letters long.
 # This is the most basic implementation: keep a boolean to track whether the word
 # was printed.
 
@@ -14,4 +13,3 @@ for word in scrabble.wordlist:
             should_i_print = False
         else:
             should_i_print = True
-            
