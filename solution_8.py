@@ -13,5 +13,5 @@ for word in scrabble.wordlist:
             max_word = word
             max_score = score
 
-print max_score
-print max_word
+print(str(max_score) + " : " + max_word)
+

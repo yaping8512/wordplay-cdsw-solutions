@@ -2,7 +2,8 @@ import scrabble
 
 # Make a list of the highest scoring word that starts with each letter.
 
-# This is a bit more advanced, but you already know how to do every single piece of this.
+# This is a bit more advanced, but you already know how to do every
+# single piece of this.
 
 # This only returns 1 word with the given score.
 

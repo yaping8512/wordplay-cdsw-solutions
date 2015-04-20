@@ -9,7 +9,7 @@ should_i_print = True
 for word in scrabble.wordlist:
     if word[0] == 'a' and len(word) >= 9:
         if should_i_print:
-            print word
+            print(word)
             should_i_print = False
         else:
             should_i_print = True

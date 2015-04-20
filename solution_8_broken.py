@@ -4,6 +4,7 @@ import scrabble
 
 max_score = 0
 max_word = ''
+
 for word in scrabble.wordlist:
     if word[0] == 'a' and word[3] == 'e' and len(word) <= 7 and len(word) >= 4:
         score = 0
@@ -13,5 +14,5 @@ for word in scrabble.wordlist:
             max_word = word
             max_score = score
 
-print max_score
-print max_word
+print(str(max_score) + " : " + max_word)
+

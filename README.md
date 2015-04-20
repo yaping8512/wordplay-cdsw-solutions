@@ -1,36 +1,44 @@
+## Worked Solutions to Wordplay Coding Challenges
 
-This repo contains worked solutions to the problems in the Wordplay section of the Fall Community Data Science Workshop
-at the University of Washington, also identified by (https://openhatch.org/wiki/CDSW).
+This repo contains worked solutions to the problems in the Wordplay section of
+the Community Data Science Workshops at the University of Washington. More
+details on the CDSW are available at:
 
-Here were the questions:
-1) Find all words that start with 'a' and are 9 or more letters long.
+http://wiki.communitydata.cc/CDSW
 
-2) What is the longest word that starts with a 'q'?
+### Challenges about finding words:
 
-3) Find all words that end with 'nge'
-4) You need a word to match the phrase "a**e*y". 
+1. Find all words that start with 'a' and are 9 or more letters long.
 
-Are there any words that match?
+2. What is the longest word that starts with a 'q'?
 
-5) Print *every other* word that matches the 
-condition in (1) above.
+3. Find all words that end with 'nge'
 
-6) Find the longest string where no character is used > 1 time.
+4. You need a word to match the phrase "a\*\*e\*y".  Are there any words that
+   match?
 
-Now we're going to start finding points! You can use scrabble.scores to get the scores for every letter.
-But we're going to cheat: assume you have all the letters.
+5. Print *every other* word that matches the condition in (1) above.
 
-7) What is the most valuable word in the dictionary, and how much is it worth?
+6. Find the longest string where no character is used > 1 time.
 
-8) You want to match a word that starts with an 'a', has an 'e' in the 4th slot, and is no more than 7 characters long. What is the best word you can play?
+### Incorporate Points
 
-(*) 9) Make a list that shows the most valuable word that starts with each letter.
-Example:
+Now we're going to start finding points! You can use scrabble.scores to get the
+scores for every letter.  But we're going to cheat: assume you have all the
+letters.
 
-    a: apophthegmatize, 37
-    c: chiquichiquis, 41
-    b: bezzazzes, 47
-    e: embezzlements, 37
-    d: decitizenizing, 36
-    .....
+7. What is the most valuable word in the dictionary, and how much is it worth?
 
+8. You want to match a word that starts with an 'a', has an 'e' in the 4th
+   slot, and is no more than 7 characters long. What is the best word you can
+   play?
+
+9. Make a list that shows the most valuable word that starts with each letter.
+   For example:
+
+<pre>a: apophthegmatize, 37
+c: chiquichiquis, 41
+b: bezzazzes, 47
+e: embezzlements, 37
+d: decitizenizing, 36
+.....</pre>
