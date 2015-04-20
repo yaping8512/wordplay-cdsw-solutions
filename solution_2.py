@@ -13,3 +13,21 @@ for word in scrabble.wordlist:
             longest_so_far = word
 
 print(longest_so_far)
+
+
+
+I wrote below code and got more results same long as the one resulted from above code, thought it's more complicated.
+
+import scrabble
+
+q_list = []
+for word in scrabble.wordlist:
+    if word[0] == "q":
+       q_list.append(word)
+       
+#print(q_list)
+
+for qword in q_list:
+    longest_qword = max(q_list, key = len)
+    if len(qword) == len(longest_qword):
+        print(qword)
